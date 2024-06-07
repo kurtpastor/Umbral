@@ -26,11 +26,6 @@ const UserSchema = new Schema({
         required: true,
         unique: true,
     },
-    password: {
-        type: Int16Array,
-        required: true,
-        unique: true,
-    },
 });
 
 const User = models?.User || model("User", UserSchema);
