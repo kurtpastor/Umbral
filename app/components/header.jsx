@@ -3,17 +3,23 @@ import Link from "next/link";
 import React from 'react';
 import { auth } from "@clerk/nextjs/server";
 import { UserButton } from "@clerk/nextjs";
+import './hpage.css'
 
 const Header = () => {
     const { userId } = auth();
 
     return (
         <>
-            <nav className="bg-purple-700 py-4 px-6 flex items-center justify-between mb-5">
+            <nav className="bg-black py-4 px-6 flex items-center justify-between mb-5">
                 <div className="flex items-center">
                     <Link href="/">
-                        <div className="text-lg uppercase font-bold text-yellow-500">
+                        <div className="text-lg uppercase font-bold text-yellow-500 marginleftS">
                             Umbral
+                        </div>
+                    </Link>
+                    <Link href="newsfeed">
+                        <div className="text-lg uppercase font-bold text-yellow-500 marginleftL">
+                            News Feed
                         </div>
                     </Link>
                 </div>

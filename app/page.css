@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.container2{
+    height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3{
+    height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+  color: #EAB308;
+  font-family: 'Italianno';
+  font-size: xx-large;
+}
+

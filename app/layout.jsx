@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
       baseTheme: dark,
     }}>
       <html lang="en">
-        <body className={inter.className}>
+        <body className={'${inter.className} bg-purple-700'}>
           <Header />
           <main className="container">
             <div className="flex items-start justify-center min-h-screen">
-              <div className="mt-20">
+              <div>
                {children}
               </div>
             </div>
